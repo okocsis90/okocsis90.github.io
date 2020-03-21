@@ -1,0 +1,129 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", Arial;
+}
+
+.bg-main {
+  background-image: url("../static/bg-masthead.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-black {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.nav-link-white {
+  color: white !important;
+}
+
+.nav-link-white:hover .nav-link-white:focus {
+  border: white;
+  border-radius: 1px;
+}
+
+.bg-glass {
+  opacity: 30%;
+  background-color: black;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.title-border {
+  background-color: #111;
+  color: #fff;
+  letter-spacing: 7px;
+}
+
+.big {
+  font-size: 30px;
+  padding: 18px;
+}
+
+.small {
+  padding: 14px;
+  font-size: 18px;
+}
+
+section {
+  padding: 100px;
+  height: fit-content;
+  min-height: 50%;
+  text-align: justify;
+}
+
+.polaroid {
+  width: 30%;
+  height: 90%;
+  float: left;
+  margin-right: 3%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform .2s;
+}
+
+.polaroid:hover {
+  transform: scale(1.1);
+  transition: .5s ease-in-out;
+}
+
+.album-text-container {
+  text-align: left;
+  padding: 10px 20px;
+}
+
+a, a:hover, a:active {
+  text-decoration: none
+}
+
+.social-link {
+  margin-right: 2%;
+  color: #737373 !important;
+}
+
+.social-link:hover {
+  color: #262626 !important;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.link-container {
+  text-align: center;
+  font-size: medium;
+}
+
+/* Mobile only */
+
+@media screen and (max-width: 600px) {
+  .polaroid {
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+  }
+
+  .polaroid:hover {
+    transform: none;
+    transition: none;
+  }
+}
