@@ -113,6 +113,9 @@ a, a:hover, a:active {
   font-size: medium;
 }
 
+#contact {
+  min-height: 10%;
+}
 /* Mobile only */
 
 @media screen and (max-width: 600px) {
