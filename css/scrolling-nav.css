@@ -65,7 +65,7 @@ body, html {
 }
 
 section {
-  padding: 100px;
+  padding: 10%;
   height: fit-content;
   min-height: 50%;
   text-align: justify;
@@ -116,6 +116,11 @@ a, a:hover, a:active {
 #contact {
   min-height: 10%;
 }
+
+.section-block {
+  margin-top: 3rem;
+}
+
 /* Mobile only */
 
 @media screen and (max-width: 600px) {
