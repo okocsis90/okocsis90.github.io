@@ -76,6 +76,7 @@ section {
   height: 90%;
   float: left;
   margin-right: 3%;
+  margin-top: 20px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: transform .2s;
@@ -134,4 +135,11 @@ a, a:hover, a:active {
     transform: none;
     transition: none;
   }
+}
+
+.polaroid-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
